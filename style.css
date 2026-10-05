@@ -1,0 +1,227 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+    font-family: Arial, sans-serif;
+
+    background-color: #f5f5f5;
+    color: #222;
+
+    line-height: 1.6;
+}
+
+
+header {
+    background-color: #222;
+    color: white;
+
+    padding: 20px;
+
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+header p {
+    margin: 5px 0 15px;
+}
+
+
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+
+    margin: 0 8px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+main {
+    width: 90%;
+    max-width: 900px;
+
+    margin: 30px auto;
+}
+
+
+section {
+    background-color: white;
+
+    padding: 25px;
+    margin-bottom: 25px;
+
+    border: 1px solid #ddd;
+}
+
+
+h2 {
+    margin-top: 0;
+
+    color: #222;
+}
+
+h3 {
+    color: #333;
+}
+
+
+a {
+    color: #0066cc;
+}
+
+a:hover {
+    color: #004999;
+}
+
+
+article {
+    background-color: #fafafa;
+
+    padding: 20px;
+
+    margin: 15px 0;
+
+    border: 1px solid #ddd;
+}
+
+article h3 {
+    margin-top: 0;
+}
+
+article p {
+    margin: 8px 0;
+}
+
+
+form {
+    max-width: 600px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input,
+textarea,
+select {
+    width: 100%;
+
+    padding: 10px;
+
+    margin-top: 5px;
+
+    border: 1px solid #bbb;
+
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+
+input[type="checkbox"] {
+    width: auto;
+
+    margin-right: 5px;
+}
+
+
+button {
+    background-color: #222;
+    color: white;
+
+    border: none;
+
+    padding: 10px 18px;
+
+    font-size: 15px;
+
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #444;
+}
+
+
+hr {
+    border: none;
+
+    border-top: 1px solid #ddd;
+
+    margin: 25px 0;
+}
+
+
+ul,
+ol {
+    padding-left: 25px;
+}
+
+
+footer {
+    background-color: #222;
+    color: white;
+
+    text-align: center;
+
+    padding: 25px;
+
+    margin-top: 40px;
+}
+
+footer h3 {
+    color: white;
+
+    margin-top: 0;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+
+@media (max-width: 600px) {
+
+    header h1 {
+        font-size: 26px;
+    }
+
+    nav a {
+        display: block;
+
+        margin: 8px 0;
+    }
+
+    main {
+        width: 95%;
+    }
+
+    section {
+        padding: 18px;
+    }
+
+    article {
+        padding: 15px;
+    }
+}

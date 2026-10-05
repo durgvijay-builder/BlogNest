@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyBlog - Write Article</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>MyBlog</h1>
+        <p>A simple place to read and share articles.</p>
+        <nav>
+            <a href="Index.html">Home</a> |
+            <a href="articles.html">Articles</a> |
+            <a href="create-article.html">Write Article</a> |
+            <a href="profile.html">Profile</a> |
+            <a href="login.html">Login</a> |
+            <a href="register.html">Register</a>
+        </nav>
+        <hr>
+    </header>
+    <main>
+        <section id="create-article">
+            <h2>Write a New Article</h2>
+            <p>Create and publish your own article.</p>
+            <form action="#" method="post">
+                <label for="article-title">Article Title:</label>
+                <input type="text" id="article-title" required minlength="5" maxlength="100"><label
+                    for="article-category">Category:</label><select id="article-category" required>
+                    <option value="">Select Category</option>
+                    <option>Technology</option>
+                    <option>Education</option>
+                    <option>Programming</option>
+                    <option>Lifestyle</option>
+                    <option>Other</option>
+                </select>
+                <label for="article-content">Article Content:</label>
+                <textarea id="article-content" rows="15" required></textarea>
+                <button type="submit">Publish Article</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <hr>
+        <h3>MyBlog</h3>
+        <p>A simple blogging website built using HTML.</p>
+        <p>&copy; 2026 MyBlog. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

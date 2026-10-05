@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyBlog - Register</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>MyBlog</h1>
+        <p>A simple place to read and share articles.</p>
+        <nav>
+            <a href="Index.html">Home</a> |
+            <a href="articles.html">Articles</a> |
+            <a href="create-article.html">Write Article</a> |
+            <a href="profile.html">Profile</a> |
+            <a href="login.html">Login</a> |
+            <a href="register.html">Register</a>
+        </nav>
+        <hr>
+    </header>
+    <main>
+        <section id="register">
+            <h2>Create an Account</h2>
+            <form action="#" method="post">
+                <label for="register-name">Full Name:</label>
+                <input type="text" id="register-name" placeholder="Enter your name" required minlength="2">
+                <label for="register-email">Email:</label>
+                <input type="email" id="register-email" placeholder="Enter your email" required>
+                <label for="register-password">Password:</label>
+                <input type="password" id="register-password" placeholder="Create a password" required minlength="6">
+                <label for="confirm-password">Confirm Password:</label>
+                <input type="password" id="confirm-password" placeholder="Confirm your password" required minlength="6">
+                <p>
+                    <input type="checkbox" id="terms" required>
+                    <label for="terms">I agree to the terms and conditions.</label>
+                </p>
+                <button type="submit">Create Account</button>
+            </form>
+            <p>Already have an account? <a href="login.html">Login here</a></p>
+        </section>
+    </main>
+    <footer>
+        <hr>
+        <h3>MyBlog</h3>
+        <p>A simple blogging website built using HTML.</p>
+        <p>&copy; 2026 MyBlog. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
